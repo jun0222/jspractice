@@ -6,7 +6,9 @@ body{
 #target{
   font-size: 48px;
   letter-spacing: 3px;
+  user-select: none;
 }
 .info{
   color: gray;
+  user-select: none;
 }
