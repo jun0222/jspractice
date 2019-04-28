@@ -12,7 +12,7 @@
   let loc;
   let score;
   let miss;
-  const timeLimit = 2 * 1000;
+  const timeLimit = 30 * 1000;
   let startTime;
   let isPlaying = false;
 
@@ -50,7 +50,7 @@
         showResult();
       }, 100);
       timerLabel.textContent = '0.00';
-      target.textContent = 'click to replay';
+      target.textContent = 'クリックするとリプレイできます';
     }
   }
 
