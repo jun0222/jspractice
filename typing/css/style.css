@@ -2,11 +2,21 @@ body{
   padding-top: 40px;
   font-family: 'Courier New',monospace;
   text-align: center;
+  background-image: url("../image/background.jpg");
+  position: relative;
+}
+.game-wrap{
+  position: absolute;
+  top:calc((100vh - 184px)/2);
+  left: calc((100% - 800px)/2);
+  right: calc((100% - 800px)/2);
+  bottom:calc((100vh - 184px)/2);
 }
 #target{
   font-size: 48px;
   letter-spacing: 3px;
   user-select: none;
+  color: gray;
 }
 .info{
   color: gray;
